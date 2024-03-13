@@ -12,7 +12,7 @@ body {
   @apply bg-gradient-to-t from-yellow-100 to-lime-500 text-transparent;
   overflow: hidden;
   border-right: 2px solid #fff;
-  animation: typing-text steps(40) 3s infinite, blink ease 0.3s infinite;
+  animation: typing-text steps(40) 4s forwards, blink ease 0.3s infinite;
   text-wrap: nowrap;
   white-space: nowrap;
   display: inline-block;
@@ -29,7 +29,7 @@ body {
       width: 0%;
   } 
   to {
-      width: 350px;
+      width: 12em;
   }
 }
 

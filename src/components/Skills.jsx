@@ -5,7 +5,7 @@ export default class Skills extends Component {
     return (
       <section>
         <div className='container m-auto px-4 py-14'>
-        <h2 className='text-2xl font-semibold'>Additional Technologies and Skills</h2>
+        <h2 className='section-head'>Additional Technologies and Skills</h2>
           <div className='flex justify-between mt-4 w-full skills'>
             <p>VBScript</p>
             <p>Java</p>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Project1 from "../assets/project1.png";
 import Automation from "../assets/icons8-automation-96.png";
 import DataProcessing from "../assets/icons8-data-processing-96.png";
 import SoftwareEngineering from "../assets/icons8-software-development-96.png";
@@ -9,7 +8,7 @@ export default class Services extends Component {
     return (
       <section id="services">
         <div className="container m-auto px-4 sm:py-12">
-          <h2 className='text-2xl font-semibold'>Services</h2>
+          <h2 className='section-head'>Services</h2>
           <div className="flex flex-col sm:flex-row gap-10 mt-11">
             <div className="border border-gray-500 rounded-md p-5 flex-1">
               <a href='https://en.wikipedia.org/wiki/Building_automation'><img src={Automation} className="m-auto w-auto h-auto" /></a>

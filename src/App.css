@@ -38,6 +38,22 @@ body {
   }
 }
 
+.section-head {
+  @apply text-2xl font-semibold;
+}
+
+.highlight-body {
+  @apply text-gray-400 text-sm mt-2;
+}
+
+.highlight-head {
+  @apply text-2xl font-semibold mt-8
+}
+
+.technologies {
+  @apply h-2 mt-2 bg-gradient-to-t from-yellow-200 to-lime-500 block rounded-md;
+}
+
 .skills p {
   @apply font-bold before:w-4 before:h-4 before:bg-gradient-to-t before:from-yellow-200 before:to-lime-500 before:block before:rounded-full before:mt-1 before:-left-6 before:absolute relative left-5;
 }

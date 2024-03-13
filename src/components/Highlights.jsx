@@ -5,12 +5,12 @@ export default class Highlights extends Component {
     return (
       <section id="highlights" className='anchor mb-12'>
         <div className="container m-auto px-4 sm:py-12">
-          <h2 className='text-2xl font-semibold'>Career Highlights</h2>
+          <h2 className='section-head'>Career Highlights</h2>
           <div className="sm:flex-row gap-10 mt-11">
             <div className="resume-item mb-4">
               <span className="date"> June 2021 - February 2024 </span>
-              <h3 className='text-2xl font-semibold mt-8'>CLI Engineering</h3>
-              <p className='text-gray-400 text-sm mt-2'>
+              <h3 className='highlight-head'>CLI Engineering</h3>
+              <p className='highlight-body'>
                 Modified and improved the functionality of a powerful, PDFkit based, 
                 inhouse CLI tool for the fully customizable creation of any type of 
                 PDF, including PDF/UA (Universal Accessibility), opening the door 
@@ -23,8 +23,8 @@ export default class Highlights extends Component {
             </div>
             <div className="resume-item mb-4">
               <span className="date"> January 2020 - February 2024 </span>
-              <h3 className='text-2xl font-semibold mt-8'>Software Automation & Data Processing</h3>
-              <p className='text-gray-400 text-sm mt-2'>
+              <h3 className='highlight-head'>Software Automation & Data Processing</h3>
+              <p className='highlight-body'>
                 Designed and implemented complex automated workflows for various 
                 client requests. Through the use of process automation tools, such 
                 as CRON, PlanetPress, and various scripting languages, I created and 
@@ -36,8 +36,8 @@ export default class Highlights extends Component {
             </div>
             <div className="resume-item mb-4">
               <span className="date"> January 2022 - February 2024 </span>
-              <h3 className='text-2xl font-semibold mt-8'>API Design and Development</h3>
-              <p className='text-gray-400 text-sm mt-2'>
+              <h3 className='highlight-head'>API Design and Development</h3>
+              <p className='highlight-body'>
                 Updated, refactored, and maintained a complex REST API system with a 
                 set of request/response conditions coined as the "rules-engine". This 
                 API gateway would receive tens of thousands of unique requests each 
@@ -47,8 +47,8 @@ export default class Highlights extends Component {
             </div>
             <div className="resume-item mb-4">
               <span className="date"> May 2018 - December 2018 </span>
-              <h3 className='text-2xl font-semibold mt-8'>Software Quality Assurance Engineering</h3>
-              <p className='text-gray-400 text-sm mt-2'>
+              <h3 className='highlight-head'>Software Quality Assurance Engineering</h3>
+              <p className='highlight-body'>
                 Created and implemented hundreds of tests for one of Gimmal's 
                 information governance tool. This included manual GUI, automated GUI, 
                 and API test that all together caught hundreds of bugs and memory leaks. 

@@ -18,7 +18,7 @@ export default class Bio extends Component {
                 optimization and real-time pipeline support.
               </p>
               <button className="px-8 shadow-gray-500 text-gray-600 font-semibold shadow-md py-5 mt-5 bg-gradient-to-t from-yellow-200 rounded-full to-lime-400 hover:from-yellow-200 hover:to-lime-600">
-                Download resume
+              <a href='https://drive.google.com/file/d/1avhneNqoFjQ1rNLtiFZhW98C3HTOlK1U/view?usp=sharing' target='_blank' rel="noopener noreferrer"> Download resume </a>
               </button>
             </div>
           </div>

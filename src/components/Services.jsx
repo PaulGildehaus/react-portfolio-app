@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import Automation from "../assets/icons8-automation-96.png";
-import DataProcessing from "../assets/icons8-data-processing-96.png";
-import SoftwareEngineering from "../assets/icons8-software-development-96.png";
+import AutomationIcon from "../assets/icons8-automation-96.png";
+import DataProcessingIcon from "../assets/icons8-data-processing-96.png";
+import SoftwareEngineeringIcon from "../assets/icons8-software-development-96.png";
+import {supplemental1URL, supplemental2URL, supplemental3URL} from "../assets/links.json";
 
 export default class Services extends Component {
   render() {
@@ -11,7 +12,7 @@ export default class Services extends Component {
           <h2 className='section-head'>Services</h2>
           <div className="flex flex-col sm:flex-row gap-10 mt-11">
             <div className="border border-gray-500 rounded-md p-5 flex-1">
-              <a href='https://en.wikipedia.org/wiki/Building_automation'><img src={Automation} className="m-auto w-auto h-auto" /></a>
+              <a href={supplemental1URL} target='_blank' rel="noopener noreferrer"><img src={AutomationIcon} className="m-auto w-auto h-auto" /></a>
               <h3 className='text-2xl font-semibold text-center mt-8'>Automated System Design</h3>
               <p className='text-gray-400 text-center text-sm mt-2'>
                 Through two different job positions involving the creation 
@@ -23,7 +24,7 @@ export default class Services extends Component {
               </p>
             </div>
             <div className="border border-gray-500 rounded-md p-5 flex-1">
-              <a href='https://www.talend.com/resources/what-is-data-processing/'><img src={DataProcessing} className="m-auto w-auto h-auto" /></a>
+              <a href={supplemental2URL} target='_blank' rel="noopener noreferrer"><img src={DataProcessingIcon} className="m-auto w-auto h-auto" /></a>
               <h3 className='text-2xl font-semibold text-center mt-8'>Data Processing Optimization</h3>
               <p className='text-gray-400 text-center text-sm mt-2'>
                 Manipulating massive datasets has been a key part of my 
@@ -35,7 +36,7 @@ export default class Services extends Component {
               </p>
             </div>
             <div className="border border-gray-500 rounded-md p-5 flex-1">
-              <a href='https://www.d.umn.edu/~gshute/softeng/principles.html'><img src={SoftwareEngineering} className="m-auto w-auto h-auto" /></a>
+              <a href={supplemental3URL} target='_blank' rel="noopener noreferrer"><img src={SoftwareEngineeringIcon} className="m-auto w-auto h-auto" /></a>
               <h3 className='text-2xl font-semibold text-center mt-8'>Software Engineering</h3>
               <p className='text-gray-400 text-center text-sm mt-2'>
                 Through my education at RIT and 

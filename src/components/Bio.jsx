@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Profile from "../assets/profile_picture.png";
+import {linkedinURL, resumeURL} from "../assets/links.json";
 
 export default class Bio extends Component {
   render() {
@@ -18,12 +19,12 @@ export default class Bio extends Component {
                 optimization and real-time pipeline support.
               </p>
               <button className="px-8 shadow-gray-500 text-gray-600 font-semibold shadow-md py-5 mt-5 bg-gradient-to-t from-yellow-200 rounded-full to-lime-400 hover:from-yellow-200 hover:to-lime-600">
-              <a href='https://drive.google.com/file/d/1avhneNqoFjQ1rNLtiFZhW98C3HTOlK1U/view?usp=sharing' target='_blank' rel="noopener noreferrer"> Download resume </a>
+              <a href={resumeURL} target='_blank' rel="noopener noreferrer"> Download resume </a>
               </button>
             </div>
           </div>
           <div className='relative'>
-            <a href='https://www.linkedin.com/in/paulgildehausiv/' target='_blank' rel="noopener noreferrer"><img src={Profile} className="relative z-10 w-[280px] m-auto sm:w-[600px] profile-image" /></a>
+            <a href={linkedinURL} target='_blank' rel="noopener noreferrer"><img src={Profile} className="relative z-10 w-[280px] m-auto sm:w-[600px] profile-image" /></a>
           </div>
         </div>
       </section>

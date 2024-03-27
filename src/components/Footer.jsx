@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import Facebook from "../assets/facebook.svg";
-import LinkedIn from "../assets/linkedin.svg";
-import Instagram from "../assets/instagram.svg";
-import Github from "../assets/github-mark-white.svg";
+import FacebookIcon from "../assets/facebook.svg";
+import LinkedInIcon from "../assets/linkedin.svg";
+import InstagramIcon from "../assets/instagram.svg";
+import GithubIcon from "../assets/github-mark-white.svg";
+import {linkedinURL, githubURL, facebookURL, instagramURL} from "../assets/links.json";
 
 export default class Technologies extends Component {
   render() {
@@ -15,23 +16,23 @@ export default class Technologies extends Component {
           <ul className="flex gap-4">
             <h2 className='font-semibold'>Contact Me:</h2>
             <li>
-              <a href='https://www.linkedin.com/in/paulgildehausiv/' target='_blank' rel="noopener noreferrer">
-                <img src={LinkedIn} className="w-6" />
+              <a href={linkedinURL} target='_blank' rel="noopener noreferrer">
+                <img src={LinkedInIcon} className="w-6" />
               </a>
             </li>
             <li>
-              <a href='https://github.com/PaulGildehaus' target='_blank' rel="noopener noreferrer">
-                <img src={Github} className="w-6" />
+              <a href={githubURL} target='_blank' rel="noopener noreferrer">
+                <img src={GithubIcon} className="w-6" />
               </a>
             </li>
             <li>
-              <a href='https://www.facebook.com/paul.gildehaus' target='_blank' rel="noopener noreferrer">
-                <img src={Facebook} className="w-6" />
+              <a href={facebookURL} target='_blank' rel="noopener noreferrer">
+                <img src={FacebookIcon} className="w-6" />
               </a>
             </li>
             <li>
-              <a href='https://www.instagram.com/pegildehaus/' target='_blank' rel="noopener noreferrer">
-                <img src={Instagram} className="w-6" />
+              <a href={instagramURL} target='_blank' rel="noopener noreferrer">
+                <img src={InstagramIcon} className="w-6" />
               </a>
             </li>
           </ul>

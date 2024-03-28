@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 import { useEffect, useState } from "react";
 import Introduction from './components/Introduction';
 import Bio from './components/Bio';

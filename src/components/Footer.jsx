@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import FacebookIcon from "../assets/facebook.svg";
 import LinkedInIcon from "../assets/linkedin.svg";
 import InstagramIcon from "../assets/instagram.svg";
+import TiktokIcon from "../assets/tiktok.svg";
 import GithubIcon from "../assets/github-mark-white.svg";
-import {linkedinURL, githubURL, facebookURL, instagramURL} from "../assets/links.json";
+import {linkedinURL, githubURL, tiktokURL, instagramURL, facebookURL} from "../assets/links.json";
 
 export default class Technologies extends Component {
   render() {
@@ -26,13 +27,18 @@ export default class Technologies extends Component {
               </a>
             </li>
             <li>
-              <a href={facebookURL} target='_blank' rel="noopener noreferrer">
-                <img src={FacebookIcon} className="w-6" />
+              <a href={instagramURL} target='_blank' rel="noopener noreferrer">
+                <img src={InstagramIcon} className="w-6" />
               </a>
             </li>
             <li>
-              <a href={instagramURL} target='_blank' rel="noopener noreferrer">
-                <img src={InstagramIcon} className="w-6" />
+              <a href={tiktokURL} target='_blank' rel="noopener noreferrer">
+                <img src={TiktokIcon} className="w-6" />
+              </a>
+            </li>
+            <li>
+              <a href={facebookURL} target='_blank' rel="noopener noreferrer">
+                <img src={FacebookIcon} className="w-6" />
               </a>
             </li>
           </ul>

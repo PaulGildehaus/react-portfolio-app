@@ -43,7 +43,7 @@ export default class About extends Component {
               <h3 className="absolute left-0 text-lg font-semibold">&lt;2016</h3>
               <p>
                 Grew up in St. Louis, while spending half my time out in nature 
-                on farmland in rural Missouri. Learning me valuable practical 
+                on farmland in rural Missouri. Teaching me valuable practical 
                 skills from helping on a farm.
               </p>
             </div>

@@ -11,7 +11,7 @@ export default class Technologies extends Component {
     return (
       <div className="container m-auto flex justify-between px-4 py-6">
         <div>
-          <p className="text-gray-300 text-sm">Copyright @ 2024 Paul Gildehaus</p>
+          <p className="text-gray-300 text-sm">Copyright @ 2025 Paul Gildehaus</p>
         </div>
         <div>
           <ul className="flex gap-4">

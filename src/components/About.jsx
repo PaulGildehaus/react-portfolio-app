@@ -7,7 +7,14 @@ export default class About extends Component {
         <div className="container m-auto px-4">
           <h2 className="section-head">About Me</h2>
           <div className="about relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 sm:before:bottom-2 before:w-1 before:bg-gray-500">
-            <div className='mt-8'>
+          <div className='mt-8'>
+              <h3 className="absolute left-0 text-lg font-semibold">2024</h3>
+              <p>
+                Left More Vang and started a new contracting position at an AI training company named 
+                Outlier. Focused time on home improvement projects due to the purchase of a home.
+              </p>
+            </div>
+            <div className='mt-20'>
               <h3 className="absolute left-0 text-lg font-semibold">2021</h3>
               <p>
                 Graduated RIT with a BS in Software Engineering, an immersion in 
